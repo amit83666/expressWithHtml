@@ -1,0 +1,19 @@
+Handson :
+    1.Create express Node js application
+        a.create folder.
+        b.create package.json.
+        c.install express module.
+        c.add public folder.
+        d.add html files :aboutus.html, services.html, login.html, register.html, list.html
+        e.add images, scripts, styles folder
+        f.add sever.js fs.
+        g.import express module.
+        h.set up middleware for bodyparser and static resources.
+        i.Add HTTP  get request handler for  default url to send index.html file.
+        j.Add POST request handler for login  to check user credentials using credentials.json file
+
+
+
+   3.Keep listening for port number 7000
+    4.Test http://localhost:7000/--------------------redirect index.html
+    5.aboutus.html, services.html, login.html, register.html, list.html will static resources hosted on express web server.
